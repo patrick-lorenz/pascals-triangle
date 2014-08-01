@@ -21,6 +21,7 @@ public class Launcher {
 	}
 
 	private static void fill(int rowNumber) {
+		// gerrit test
 		for (int i = 0; i <= rowNumber; i++) {
 			if (i == 0 || i == rowNumber) {
 				pascal[rowNumber][i] = 1;
